@@ -1,0 +1,50 @@
+experiment_id,date,protein,host,medium,od600_induction,iptg_mM,temp_C,induction_h,uses_ni_nta,uses_sec,imidazol_max_mM,yield_mg_per_L,notes_summary,raw_eln_text
+EXP001,2025-11-20,His6-CASPON-CandidateA,E. coli BL21(DE3),TB,0.7,0.5,20,16,1,0,250,45,"lösliches Protein, kaum Aggregation, gutes SDS-PAGE-Band","Experiment ID: EXP001
+Datum: 2025-11-20
+Protein: His6-CASPON-CandidateA
+Host: E. coli BL21(DE3)
+Medium: TB
+Induktion: OD600 = 0.7, IPTG 0.5 mM, 20 °C, 16 h
+Lysis: Sonifikation in PBS, 10 mM Imidazol
+Purifikation: Ni-NTA, eluiert mit 250 mM Imidazol
+Yield: 45 mg pro Liter Kultur
+Notizen: lösliches Protein, kaum Aggregation, gutes SDS-PAGE-Band"
+EXP002,2025-11-21,His6-CASPON-CandidateB,E.coli Rosetta (DE3),LB,0.6,1.0,25,6,1,0,300,18,"deutliche Aggregation, viel Material im Pellet","Experiment: EXP002
+Datum: 21.11.2025
+Konstrukttyp: His6-CASPON-CandidateB
+Wirt: E.coli Rosetta (DE3)
+Medium: LB
+Expression: Induktion bei OD600 ~0.6 mit 1 mM IPTG, 25°C für 6 h
+Lyse: BugBuster + Lysozym + DNase
+Aufreinigung: Ni-NTA, Imidazolgradient 50-300 mM
+Ausbeute: 18 mg/L
+Bemerkung: deutliche Aggregation, viel Material im Pellet"
+EXP003,2025-11-22,His6-CASPON-CandidateA,BL21(DE3),Terrific Broth (TB),0.8,0.2,18,20,1,1,250,60,SEC shows nice monomeric peak,"ID: EXP003
+Date: 2025-11-22
+Protein: His6-CASPON-CandidateA
+Strain: BL21(DE3)
+Medium: Terrific Broth (TB)
+Induction at OD600 0.8 using 0.2 mM IPTG, 18 °C overnight (~20 h)
+Lysis via sonication
+Purification: HisTrap (Ni-NTA), elution with 250 mM imidazole, followed by SEC (Superdex 200)
+Yield: approx. 60 mg/L culture
+Notes: SEC shows nice monomeric peak"
+EXP004,,His6-CASPON-CandidateC,BL21(DE3),TB,0.9,0.1,30,5,1,0,100,25,"Signifikanter Anteil unlöslich, aber ausreichend lösliches Protein","Experiment ID: EXP004
+Protein: His6-CASPON-CandidateC
+Host: BL21(DE3)
+Medium: TB
+Induktion bei OD600 0.9, 0.1 mM IPTG, 30°C, 5 h
+Lyse: French Press
+Chromatographie: Ni-NTA, Elution mit 100 mM Imidazol
+Yield: 25 mg pro Liter
+Kommentar: signifikanter Anteil unlöslich, aber ausreichend lösliches Protein"
+EXP005,2025-11-24,His6-CASPON-CandidateA,Rosetta(DE3),EnPresso,1.5,0.05,25,24,1,1,200,85,"Best yield so far, main species monomer, minor dimer peak","Exp: EXP005
+Datum: 24-11-2025
+Protein: His6-CASPON-CandidateA
+Host strain: Rosetta(DE3)
+Medium: EnPresso
+Induction: started at OD600 = 1.5 with 0.05 mM IPTG, 25°C, 24 hours
+Lysis by sonication in Tris/NaCl buffer (300 mM NaCl)
+Purification: Ni-NTA, elution with 200 mM imidazole, then SEC on Superdex 75
+Total yield: 85 mg/L
+Note: best yield so far, main species monomer, minor dimer peak"
